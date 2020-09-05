@@ -39,5 +39,5 @@ end
 
 def add_s
   i = 0
-  if array[i] != 1
+  if i != 1
 end
