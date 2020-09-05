@@ -37,8 +37,7 @@ def sum_array(array)
   array.sum
 end
 
-def add_s
+def add_s(array)
   i = 0
-  if i != 1
-    
+  while  i != 1
 end
