@@ -44,7 +44,9 @@ def add_s(array)
     if i != 1
       dos << "#{array[i]}" + "s"
       i += 1
-    else i += 1
+    else
+      dos << "#{array[i]}"
+      i += 1
     end
   end
     dos
