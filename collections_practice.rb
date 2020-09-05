@@ -30,5 +30,5 @@ end
 
 def find_a(array)
   a = "a" || "A"
-  array.select{|word| word[0] == "a"}
+  array.select{|word| word[0] == a}
 end
