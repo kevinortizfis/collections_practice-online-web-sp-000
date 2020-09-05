@@ -39,5 +39,6 @@ end
 
 def add_s(array)
   i = 0
-  while  i != 1
+  while i > array.length
+    if i != 1
 end
