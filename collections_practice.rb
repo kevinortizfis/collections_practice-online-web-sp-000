@@ -29,5 +29,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find{|word| word[1].to_s == a}
+  array.find{|word| word[0].to_s == a}
 end
