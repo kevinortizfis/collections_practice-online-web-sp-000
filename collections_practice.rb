@@ -39,9 +39,10 @@ end
 
 def add_s(array)
   i = 0
+  dos = %w()
   while i > array.length
     if i != 1
-      "#{array[i]}" + "s"
+      dos << "#{array[i]}" + "s"
       i += 1
     else i += 1
     end
